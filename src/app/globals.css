@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL BASE THEME */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b0b0b;
+  color: #e7c57a;
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* SIDEBAR */
+.albion-sidebar {
+  width: 220px;
+  min-width: 220px;
+  background: linear-gradient(to bottom, #151515, #0c0c0c);
+  border-right: 1px solid rgba(255, 200, 50, 0.15);
+  padding: 24px 16px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+/* SIDEBAR LINKS */
+.albion-sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: #eac57a;
+  background: rgba(255, 200, 50, 0.05);
+  transition: 0.2s;
+}
+
+.albion-sidebar-link:hover {
+  background: rgba(255, 200, 50, 0.15);
+}
+
+/* TITLES */
+.albion-title {
+  font-weight: 700;
+  color: #eac57a;
+}
+
+/* INPUTS */
+.albion-input {
+  width: 100%;
+  padding: 8px 10px;
+  background: #111;
+  border: 1px solid #554016;
+  border-radius: 6px;
+  color: #ffd88a;
+}
+
+/* BUTTON */
+.albion-btn {
+  padding: 8px 10px;
+  background: #5a3c12;
+  border: 1px solid #8c6a22;
+  border-radius: 6px;
+  color: #ffd88a;
+  transition: 0.2s;
+}
+
+.albion-btn:hover {
+  background: #6a4b1a;
+}
+
+/* CARD */
+.albion-card {
+  background: #0d0d0d;
+  border: 1px solid rgba(255, 200, 80, 0.12);
+  border-radius: 8px;
+  padding: 16px;
+}
